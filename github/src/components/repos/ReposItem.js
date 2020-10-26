@@ -6,7 +6,7 @@ export const ReposItem = ({ repo }) => {
   return (
     <div className="card">
         <h3>
-  <Link to={repo.html_url} > {repo.name}</Link>
+      <Link to={repo.html_url} > {repo.name}</Link>
         </h3>
     </div>
   )
